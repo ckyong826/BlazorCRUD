@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xinka\\source\\repos\\ProductSystem\\ProductSystem.Shared\\ProductSystem.Shared.csproj": {}
+    "D:\\UTM folder\\Internship\\Blazor\\ProductSystem\\ProductSystem.Shared\\ProductSystem.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xinka\\source\\repos\\ProductSystem\\ProductSystem.Shared\\ProductSystem.Shared.csproj": {
+    "D:\\UTM folder\\Internship\\Blazor\\ProductSystem\\ProductSystem.Shared\\ProductSystem.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xinka\\source\\repos\\ProductSystem\\ProductSystem.Shared\\ProductSystem.Shared.csproj",
+        "projectUniqueName": "D:\\UTM folder\\Internship\\Blazor\\ProductSystem\\ProductSystem.Shared\\ProductSystem.Shared.csproj",
         "projectName": "ProductSystem.Shared",
-        "projectPath": "C:\\Users\\xinka\\source\\repos\\ProductSystem\\ProductSystem.Shared\\ProductSystem.Shared.csproj",
+        "projectPath": "D:\\UTM folder\\Internship\\Blazor\\ProductSystem\\ProductSystem.Shared\\ProductSystem.Shared.csproj",
         "packagesPath": "C:\\Users\\xinka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xinka\\source\\repos\\ProductSystem\\ProductSystem.Shared\\obj\\",
+        "outputPath": "D:\\UTM folder\\Internship\\Blazor\\ProductSystem\\ProductSystem.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xinka\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wN3I/FE+oCZ3WRFl3Z9xAH2lsvZ3HFFfbDfk7ZjJvV9YN5wBVxTb7dpfPlo0oBo7p0TCHUAUh84YpVUHQb6PSw==",
+  "dgSpecHash": "imoBVceI8HcCaWQMt/zZjhrHq5YOj+W85Mv3ZLbGDT8mix/Tyll/URNv3V3DxtA5jAJBMiiCTjWAwBLCiBsToA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xinka\\source\\repos\\ProductSystem\\ProductSystem\\ProductSystem\\ProductSystem.csproj",
+  "projectFilePath": "D:\\UTM folder\\Internship\\Blazor\\ProductSystem\\ProductSystem\\ProductSystem\\ProductSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xinka\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\xinka\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

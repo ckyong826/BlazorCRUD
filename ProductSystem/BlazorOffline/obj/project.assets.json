@@ -5162,11 +5162,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xinka\\source\\repos\\ProductSystem\\BlazorOffline\\BlazorOffline.csproj",
+      "projectUniqueName": "D:\\UTM folder\\Internship\\Blazor\\ProductSystem\\BlazorOffline\\BlazorOffline.csproj",
       "projectName": "BlazorOffline",
-      "projectPath": "C:\\Users\\xinka\\source\\repos\\ProductSystem\\BlazorOffline\\BlazorOffline.csproj",
+      "projectPath": "D:\\UTM folder\\Internship\\Blazor\\ProductSystem\\BlazorOffline\\BlazorOffline.csproj",
       "packagesPath": "C:\\Users\\xinka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xinka\\source\\repos\\ProductSystem\\BlazorOffline\\obj\\",
+      "outputPath": "D:\\UTM folder\\Internship\\Blazor\\ProductSystem\\BlazorOffline\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\xinka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5183,8 +5183,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\xinka\\source\\repos\\ProductSystem\\ProductSystem.Shared\\ProductSystem.Shared.csproj": {
-              "projectPath": "C:\\Users\\xinka\\source\\repos\\ProductSystem\\ProductSystem.Shared\\ProductSystem.Shared.csproj"
+            "D:\\UTM folder\\Internship\\Blazor\\ProductSystem\\ProductSystem.Shared\\ProductSystem.Shared.csproj": {
+              "projectPath": "D:\\UTM folder\\Internship\\Blazor\\ProductSystem\\ProductSystem.Shared\\ProductSystem.Shared.csproj"
             }
           }
         }

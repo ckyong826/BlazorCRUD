@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f6iJO5BE59LA/42csXsHsj8MHLmsiry6l8VcuEML2VbHF93+bqY1plLy9XXBSWK/1TZCygNFumTVQnrDuSgGOw==",
+  "dgSpecHash": "MxYLak1Fh7yRwmXcPuLUaaAkB3rBQ85+kA1T0vJs4Tlsttele66dnj7w9u1DGyJLOa5IiGJkUY8ovDT5hbLnPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xinka\\source\\repos\\ProductSystem\\BlazorOffline\\BlazorOffline.csproj",
+  "projectFilePath": "D:\\UTM folder\\Internship\\Blazor\\ProductSystem\\BlazorOffline\\BlazorOffline.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xinka\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\xinka\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
