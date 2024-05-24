@@ -1,0 +1,60 @@
+﻿@page "/products"
+@inject IProductService ProductService
+@inject NavigationManager NavigationMnager
+@attribute [StreamRendering(true)]
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+
+<h3>ProductList</h3>
+<CreateProductButton/>
+
+@if (products == null)
+{
+	<p><em>Loading...</em></p>
+}
+else if (products.Count ==0)
+{
+	<span>No Products found.</span>
+}
+else
+{
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>UserName</th>
+				<th>DateCaptured</th>
+				<th>ProductModel</th>
+				<th>ProductPartNumber</th>
+				<th>Quantity</th>
+				<th>Price</th>
+				<th>TotalPrice</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var product in products)
+			{
+				var totalPrice = product.Price * product.Quantity;
+				<tr>
+					<td>@product.Id</td>
+					<td>@product.UserName</td>
+					<td>@product.DateCaptured</td>
+					<td>@product.ProductModel</td>
+					<td>@product.ProductPartNumber</td>
+					<td>@product.Quantity</td>
+					<td>@product.Price</td>
+					<td>@totalPrice</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+@code {
+	List<Product>? products = null;
+
+	protected override async Task OnInitializedAsync()
+	{
+		products = await ProductService.GetAllProducts();
+	}
+}

@@ -1,0 +1,60 @@
+﻿@page "/"
+@inject HttpClient Http
+@inject IProductService ProductService
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+@rendermode @(new InteractiveWebAssemblyRenderMode(prerender: false))
+
+<h3>CreateProduct</h3>
+
+<EditForm Model="productData" OnValidSubmit="HandleValidSubmit" >
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>User Name:</label>
+        <InputText @bind-Value="productData.UserName">@productData.UserName</InputText>
+    </div>
+    <div>
+        <label>Date Captured: @productData.DateCaptured</label>
+	</div>
+    <div>
+        <label>Product Model:</label>
+        <InputText @bind-Value="productData.ProductModel" />
+    </div>
+    <div>
+        <label>Product Part Number:</label>
+        <InputText @bind-Value="productData.ProductPartNumber" />
+    </div>
+    <div>
+        <label>Quantity:</label>
+        <InputNumber @bind-Value="productData.Quantity" />
+    </div>
+    <div>
+        <label>Price:</label>
+        <InputNumber @bind-Value="productData.Price" />
+    </div>
+    <button type="submit">Submit</button>
+
+</EditForm>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+    Product productData { get; set; } = new Product { UserName = string.Empty, DateCaptured = DateTime.Now, ProductModel = string.Empty, ProductPartNumber = string.Empty, Quantity = 0, Price = 0 };
+
+    async Task HandleValidSubmit()
+    {
+        try{
+            await ProductService.CreateProduct(productData);
+            NavigationManager.NavigateTo("/products", true);
+        }
+        catch(Exception){
+            await JSRuntime.InvokeVoidAsync("savePostRequest", new { url = "https://localhost:7177/api/product", productData });
+        }
+        
+        
+    }
+}
+
+

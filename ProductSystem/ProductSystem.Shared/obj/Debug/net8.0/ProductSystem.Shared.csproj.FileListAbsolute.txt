@@ -1,0 +1,14 @@
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\bin\Debug\net8.0\ProductSystem.Shared.deps.json
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\bin\Debug\net8.0\ProductSystem.Shared.runtimeconfig.json
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\bin\Debug\net8.0\ProductSystem.Shared.dll
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\bin\Debug\net8.0\ProductSystem.Shared.pdb
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\obj\Debug\net8.0\ProductSystem.Shared.csproj.AssemblyReference.cache
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\obj\Debug\net8.0\ProductSystem.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\obj\Debug\net8.0\ProductSystem.Shared.AssemblyInfoInputs.cache
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\obj\Debug\net8.0\ProductSystem.Shared.AssemblyInfo.cs
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\obj\Debug\net8.0\ProductSystem.Shared.csproj.CoreCompileInputs.cache
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\obj\Debug\net8.0\ProductSystem.Shared.dll
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\obj\Debug\net8.0\refint\ProductSystem.Shared.dll
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\obj\Debug\net8.0\ProductSystem.Shared.pdb
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\obj\Debug\net8.0\ProductSystem.Shared.genruntimeconfig.cache
+C:\Users\xinka\source\repos\ProductSystem\ProductSystem.Shared\obj\Debug\net8.0\ref\ProductSystem.Shared.dll
